@@ -1,0 +1,73 @@
+.banner-bg{
+    background-color: #fceae8;
+    border-radius: 5px;
+}
+.padding{
+    padding: 20px 40px;
+}
+.margin{
+    margin-top: 120px;
+}
+.price{
+    color: #ff136f;
+}
+.buy-now-button{
+    background-image: linear-gradient(to bottom, #f8589b, #ff136f);
+    border: none;
+    padding: 7px 15px;
+    color: #fff;
+    border-radius: 4px;
+}
+.buy-now-button:hover{
+    background-image: linear-gradient(#ff136f, #f8589b);
+    cursor: pointer;
+}
+/* background-color: #fceae8; */
+/* gradient #f8589b 0%, #ff136f 100% */
+.cat1, .cat2, .cat3{
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: .3s;
+    box-shadow: 10px 10px 10px rgb(216, 211, 211);
+}
+.cat1:hover,
+.cat2:hover,
+.cat3:hover{
+    box-shadow: none;
+}
+.cat1{
+    /* background-color: lightblue; */
+    background-image: linear-gradient(to right, lightblue, rgb(135, 207, 231));
+}
+.cat2{
+    /* background-color: lightcoral; */
+    background-image: linear-gradient(to right, lightcoral, rgb(218, 105, 105));
+}
+.cat3{
+    background-color: lightseagreen;
+    background-image: linear-gradient(to right, lightseagreen, rgb(24, 206, 197));
+}
+.rounded{
+    border-radius: 10px !important;
+}
+#categories img{
+    width: 120px;
+}
+#shoes .margin,
+#backpack .margin,
+#contact .margin{
+    margin-bottom: 100px;
+}
+.card{
+    border: none;
+    box-shadow: 5px 5px 10px rgb(241, 236, 236);
+}
+.contact-height{
+    padding: 90px 0;
+}
+footer{
+    margin: 10px 0;
+}
+#contact button{
+    margin-top: 10px;
+}
